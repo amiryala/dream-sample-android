@@ -37,7 +37,7 @@ class HomeListingAdapter (val list: MutableList<Home> = mutableListOf(),
             square_ft_textview.text = String.format("%s sq ft ", item.squareFeet)
 
             listing_type_text_view.text = item.listingType
-            //
+
             street_textview.text = String.format("%s %s", item.streetNumber, item.streetName)
             city_state_text_view.text = String.format("%s, %s, %s", item.city, item.stateCode, item.zipCode)
 
